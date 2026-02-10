@@ -12,7 +12,10 @@ FetchContent_Declare(SFML
     SYSTEM)
 FetchContent_MakeAvailable(SFML)
 
-add_executable(HelloWorld src/main.cpp)
+add_executable(HelloWorld
+    src/main.cpp
+    src/TitleScreen.cpp
+    src/TitleScreen.h)
 target_compile_features(HelloWorld PRIVATE cxx_std_17)
 target_link_libraries(HelloWorld PRIVATE SFML::Graphics)
 #target_link_libraries(main
