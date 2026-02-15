@@ -12,7 +12,8 @@ FetchContent_Declare(SFML
     SYSTEM)
 FetchContent_MakeAvailable(SFML)
 
-add_executable(main src/main.cpp)
+file(GLOB SRC_FILES "${CMAKE_SOURCE_DIR}/src/*.cpp")
+add_executable(main ${SRC_FILES})
 target_compile_features(main PRIVATE cxx_std_17)
 target_link_libraries(main PRIVATE SFML::Graphics)
 

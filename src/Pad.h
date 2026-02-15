@@ -26,5 +26,4 @@ private:
     sf::RectangleShape padRect;
 };
 
-#include "Pad.cpp"
 #endif

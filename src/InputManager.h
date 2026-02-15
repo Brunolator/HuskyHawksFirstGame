@@ -4,6 +4,7 @@
 #include "MainManager.h"
 #include "TitleScreen.h"
 #include "GameManager.h"
+#include <optional>
 
 class InputManager
 {
@@ -21,5 +22,4 @@ private:
     GameManager *gameManager;
 };
 
-#include "InputManager.cpp"
 #endif

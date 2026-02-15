@@ -15,5 +15,4 @@ private:
     Pad gamePad;
 };
 
-#include "GameManager.cpp"
 #endif

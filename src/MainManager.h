@@ -3,7 +3,6 @@
 
 #include "TitleScreen.h"
 #include "GameManager.h"
-#include "InputManager.h"
 
 class MainManager
 {
@@ -30,5 +29,4 @@ private:
     bool _playingGame;
 };
 
-#include "MainManager.cpp"
 #endif
