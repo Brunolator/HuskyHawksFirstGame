@@ -41,12 +41,12 @@ Before building the project, ensure you have:
 
 
 ##👥 Team
-Tanisha Thakare
-Kari Severud
-Kaleb Fikadu
-Mitesh Samal
-David Hochberg
-Miles Vollmer
+- Tanisha Thakare
+- Kari Severud
+- Kaleb Fikadu
+- Mitesh Samal
+- David Hochberg
+- Miles Vollmer
 
 
 
