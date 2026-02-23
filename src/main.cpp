@@ -20,8 +20,8 @@ int main() {
     // Colors for neon retro
     const sf::Color bgTop(10, 6, 25);        // deep purple
     const sf::Color bgBottom(6, 20, 40);     // dark blue
-    const sf::Color neonMain(0, 255, 200);   // cyan/neon blue
-    const sf::Color neonAccent(255, 0, 200); // magenta accent
+    const sf::Color neonMain(0, 255, 200);   // neon cyan-green
+    const sf::Color neonAccent(255, 0, 200); // neon magenta accent
     const sf::Color neonSelect(255, 200, 0); // neon orange
     const sf::Color textFill(230, 230, 255);
 
