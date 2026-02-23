@@ -40,7 +40,7 @@ Before building the project, ensure you have:
 (INCLUDE INFO HERE)
 
 
-##👥 Team
+## 👥 Team
 - Tanisha Thakare
 - Kari Severud
 - Kaleb Fikadu
