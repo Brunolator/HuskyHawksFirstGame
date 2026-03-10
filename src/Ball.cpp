@@ -77,16 +77,16 @@ int Ball::checkBlockCollision(vector<Block> &blocks)
     // Go through all blocks
     for (int i = 0; i < blocks.size(); i++)
     {
-        sf::FloatRect &blockBounds = blocks[i].getBounds();
+        sf::FloatRect blockBounds = blocks[i].getBounds();
 
         // If ball collides with the block, bounce and return the index of block
         if (blockBounds.findIntersection(ballBound))
         {
             // Get the angle between the two shapes
-            sf::Vector2f &blockCenter = blockBounds.getCenter();
-            sf::Vector2f &ballCenter = ballBound.getCenter();
-            float angle = std::atan2(ballCenter.y - blockCenter.y,
-                                     ballCenter.x - blockCenter.x) *
+            sf::Vector2f blockCenter = blockBounds.getCenter();
+            sf::Vector2f ballCenter = ballBound.getCenter();
+            float angle = atan2(ballCenter.y - blockCenter.y,
+                                ballCenter.x - blockCenter.x) *
                           180 / PI;
 
             // Use the angle to determine which way the ball should bounce
