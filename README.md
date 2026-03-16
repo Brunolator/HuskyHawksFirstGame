@@ -9,7 +9,10 @@ A classic **Breakout-style arcade game** built in **C++** using **SFML** and **C
 This project recreates the retro brick-breaker experience where the player controls a paddle to bounce a ball and destroy bricks. The objective is to clear all bricks without letting the ball fall below the paddle.
 
 
-![Game Play Screenshot](GameScreenshots/SampleGamePlay.png)
+![Game Play Screenshot](GameScreenshots/Blocks.png)
+
+
+![Game Play Screenshot](GameScreenshots/PauseMenu.png)
 
 
 ## 🎮 Gameplay
@@ -40,6 +43,7 @@ This project recreates the retro brick-breaker experience where the player contr
 **During Gameplay:**
 - 'Left' arrow: Moves paddle to the left
 - 'Right' arrow: Moves paddle to the right
+- Escape Key to Pause and Unpause the Game
 
 
 
@@ -145,11 +149,5 @@ Run the executable shown in the output. For example:
 ## 🎉 Acknowledgements
 
 Special thanks to **SFML** for providing the graphics library used to build this game.
-
-
-
-
-
-
 
 
